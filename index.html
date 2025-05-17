@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Avni Laptop Solutions</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet">
+</head>
+
+  <script>
+    const menuToggle = document.getElementById('menu-toggle');
+    const navLinks = document.getElementById('nav-links');
+
+    menuToggle.addEventListener('click', () => {
+      navLinks.classList.toggle('show');
+    });
+  </script>
+
+<body>
+ <header class="main-header">
+    <div class="logo-container">
+      <img src="img/logo.jpg" alt="Avni Logo" class="site-logo">
+      <h1>Avni Laptop Solutions</h1>
+    </div>
+    <div class="menu-toggle" id="menu-toggle">&#9776;</div>
+    <nav class="nav-links" id="nav-links">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="budget-laptop.html">Budget Laptop</a>
+      <a href="gaming-pc.html">Gaming PC</a>
+      <a href="professional-laptop.html">Professional Laptop</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+
+  <section class="hero">
+    <h2>Your One-Stop Shop for Laptops & Gaming PCs</h2>
+    <p>Affordable laptops starting at ₹20,000 | Desktops from ₹7,000</p>
+  </section>
+
+  <section class="products">
+    <h2>Featured Products</h2>
+    <div class="product-gallery">
+      <div class="product-card">
+        <img src="img/laptop1.png" alt="Budget Laptop">
+        <h3>Budget Laptop</h3>
+        <p>Perfect for students and office work. Reliable & affordable.</p>
+        <button onclick="location.href='budget-laptop.html'">View Details</button>
+      </div>
+      <div class="product-card">
+        <img src="img/gamingpc.jpg" alt="Gaming PC">
+        <h3>Gaming PC</h3>
+        <p>High performance gaming rigs. Custom-built for gamers.</p>
+       <button onclick="location.href='gaming-pc.html'">View Details</button>
+      </div>
+      <div class="product-card">
+        <img src="img/laptop2.png" alt="Professional Laptop">
+        <h3>Professional Laptop</h3>
+        <p>High-speed laptops for designers, coders & business pros.</p>
+        <button onclick="location.href='professional-laptop.html'">View Details</button>
+      </div>
+    </div>
+  </section>
+
+  <section class="map-section">
+    <h2>Visit Us</h2>
+    <p>G-5, Ocean Building, Nehru Place, New Delhi</p>
+    <iframe 
+      src="https://www.google.com/maps?q=G-5%20Ocean%20Building%20Nehru%20Place%20New%20Delhi&output=embed"
+      width="100%" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0">
+    </iframe>
+  </section>
+
+  <footer>
+    <div class="contact">
+      <p>📧 Email: <a href="mailto:avnilaptopgamingpc@gmail.com">avnilaptopgamingpc@gmail.com</a></p>
+      <p>📞 Owner: Ravi Kumar | Instagram: <a href="https://instagram.com/raviprajapati07" target="_blank">@raviprajapati07</a></p>
+      <p>📱 Other Insta IDs: 
+        <a href="https://instagram.com/avni_laptop_solutionsss" target="_blank">avni_laptop_solutionsss</a>,
+        <a href="https://instagram.com/avni_gaming_pc" target="_blank">avni_gaming_pc</a>,
+        <a href="https://instagram.com/avni_laptop_delhi" target="_blank">avni_laptop_delhi</a>
+      </p>
+      <p>📺 YouTube: <a href="https://www.youtube.com/results?search_query=Avni+Laptop+Solutions" target="_blank">Avni Laptop Solutions</a></p>
+    </div>
+    <p class="copyright">© 2025 Avni Laptop Solutions. All rights reserved.</p>
+  </footer>
+</body>
+</html>
