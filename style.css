@@ -49,8 +49,13 @@ nav a {
 .hero h2 {
   font-size: 2em;
   margin-bottom: 10px;
+ 
 }
 
+about-wrapper {
+  padding: 40px 20px;
+  text-align: center;
+}
 .products {
   padding: 40px 20px;
   text-align: center;
@@ -378,4 +383,9 @@ footer a {
 
 .main-footer a:hover {
   text-decoration: underline;
+}
+
+/*.about-content {
+text-align: center;
+max-width: 800px;
 }
